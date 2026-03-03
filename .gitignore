@@ -1,0 +1,68 @@
+# ===== Папки сборки Visual Studio =====
+/x64/
+/x86/
+/Debug/
+/Release/
+/Win32/
+/ipch/
+/.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ===== Папки CMake =====
+/out/
+/build/
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/compile_commands.json
+/Makefile
+/ninja_deps/
+/ninja_log/
+
+# ===== Временные файлы =====
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+
+# ===== Скомпилированные файлы =====
+/CombinedProject2/
+*.obj
+*.o
+*.pch
+*.ipdb
+*.iobj
+*.ipdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.pdb
+
+# ===== Файлы операционной системы =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE =====
+/.idea/
+*.iml
+.vscode/
+*.code-workspace
+
+# ===== Тесты =====
+/Testing/
+/TestResults/
+/modules/boiling_soup/*.cpp
+#/modules/boiling_soup/*.h
+/modules/wave_surface/*.cpp
+#/modules/wave_surface/*.h
+/modules/rotating_cube/*.cpp
+#/modules/rotating_cube/*.h
